@@ -1,5 +1,3 @@
-// gsap.registerPlugin(ScrollTrigger);
-
 // get the section
 let bgImg = document.querySelector('.circle');
 console.log(bgImg)
@@ -10,9 +8,10 @@ gsap.to(bgImg, {
     ease: 'none',
     scrollTrigger: {
         trigger: bgImg,
-        scrub: .5,
-        start: '30% center -=200',
-        end: '100% center',
+        pin: bgImg,
+        scrub: 2,
+        start: '45% center',
+        end: '20% center',
         markers: true,
     }
 })
