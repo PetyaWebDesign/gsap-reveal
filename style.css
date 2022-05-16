@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero,
+.img-content,
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero {
+    background-color: blanchedalmond;
+}
+
+.img-content {
+    position: relative;
+    /* background-image: url(./coffee.jpg); */
+    background-size: cover;
+}
+
+.img-content img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(5% at 87% 50%);
+}
+
+.img-content h1 {
+    color: #fff;
+    position: relative;
+    z-index: 222;
+}
