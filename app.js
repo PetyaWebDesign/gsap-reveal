@@ -11,7 +11,7 @@ gsap.to(bgImg, {
         pin: bgImg,
         scrub: 2,
         start: '45% center',
-        end: '20% center',
+        end: '80% center',
         markers: true,
     }
 })
