@@ -30,7 +30,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: circle(5% at 87% 50%);
+    clip-path: circle(15% at 87% 50%);
 }
 
 .img-content h1 {
